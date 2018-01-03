@@ -1,0 +1,36 @@
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:title
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+markdown: redcarpet
+
+highlighter: pygments
+paginate: 20 # pagination based on number of posts
+paginate_path: "page/:num"
+
+# These paths are to the main pages Jekyll-Bootstrap ships with.
+# Some JB helpers refer to these paths; change them here if needed.
+#
+categories_path : categories.html
+tags_path : tags.html
+
+#BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
+BASE_PATH : https://yyxyz.github.io
+
+description : 深沉的意志，恢宏的想象和炽热的情感
+title : yyxyz
+logo : /assets/images/avatar.jpg
+#cover : /assets/images/background-cover.jpg
+
+
+author:
+  name: yyxyz
+  maxim: Stay hungry, Stay foolish
+  role: Jekyll Theme
+  email: yyxyz2011@gmail.com
+  github: yyxyz
+  twitter: yyxyz2011
+  facebook: yyxyz2011
+  googleplus: +yyxyz2011
+  bio: "Hi, 我是 yyxyz"
+  uno-dbyll: /assets/images/avatar.jpg
